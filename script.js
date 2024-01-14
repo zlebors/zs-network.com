@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Center Aligned Page</title>
+    <title>ZS HOTSPOT</title>
     <style>
         body {
             display: flex;
@@ -29,7 +29,7 @@
     }
 </script>
 
-<button onclick="redirectToFast()">Go to fast.com</button>
+<button onclick="redirectToFast()">Go to www.fast.com</button>
 
 </body>
 </html>
