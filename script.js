@@ -1,18 +1,35 @@
-function changeText() {
-    var element = document.getElementById("changeableText");
-    element.innerHTML = "Text changed!";
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Center Aligned Page</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-    // Open WhatsApp chat
-    openWhatsAppChat();
-}
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
 
-function openWhatsAppChat() {
-    var phoneNumber = "6285161956196";
-    var message = encodeURIComponent("Halo, saya ingin berlangganan internet di ZS Hotspot");
+<script>
+    // Function to redirect to fast.com
+    function redirectToFast() {
+        window.location.href = 'https://fast.com';
+    }
+</script>
 
-    // Construct the WhatsApp URL
-    var whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" + message;
+<button onclick="redirectToFast()">Go to fast.com</button>
 
-    // Open a new window or tab with the WhatsApp URL
-    window.open(whatsappUrl, "_blank");
-}
+</body>
+</html>
